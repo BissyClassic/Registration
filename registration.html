@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Registration Form</title> 
+    <link href="registration.css" rel="stylesheet" /> 
+    </head>
+    <body>
+     <header>
+        <h1>Is it your dream to study in Excellence School?</h1>
+     </header>
+     <main>
+     <form>
+     <h2>Put down your information</h2>
+    <label for="name">Name:
+        <input type="text" id="name" name="name" required />
+    </label> 
+   <label for="age">Age:
+        <input type="text" id="age" name="age" required />
+    </label>
+    <label for="nationality">Nationality:
+        <input type="text" id="nationality" name="nationality" required />
+    </label>
+    <label for="gender">Gender:</label> 
+    <select id="gender" name="gender" required>
+<option value="male">Male</option>
+<option value="female" selected>Female</option>
+</select>
+    <label for="email">Email:<input type="email" id="email" name="email" required /></label> 
+  <label for="course">Course: </label>
+ <select id="course" name="course" required>
+    <option value="civil-engineering">Civil Engineering</option>
+ <option value="software-engineering" selected>Software Engineering</option>
+ <option value="mechanical-engineering">Mechanical Engineering</option>
+ </select >
+ 
+  <button type="submit">Submit</button>  
+    </form>   
+     </main>   
+    </body>
+</html>

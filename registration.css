@@ -1,0 +1,53 @@
+body {
+    background-color: #722532;
+  }
+  .form-container {
+    padding: 2rem 0;
+    background-color: #ff1493;
+     color: rgb(100, 100, 204);
+    border-radius: 20px;
+    width: 70vw;
+    max-width: 300px;
+    min-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  header, h2 {
+    color: rgb(100, 100, 204);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+  }
+  label {
+    margin: 0.5rem 0;
+     color: rgb(100, 100, 204);
+    display: block;
+  }
+  input, select {
+    width: 40%;
+    display: inline-block;
+    min-width: 50px;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: #ffaaff;
+    color: black;
+    font-size: 1rem;
+    height: 1em;
+    border-color: white;
+    min-height: 2em;
+    border-radius: 20px;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #722532;
+    font-size: 1rem;
+  }
+  button:hover {
+    background-color: pink;
+  }
+select {
+    color: black;
+}
